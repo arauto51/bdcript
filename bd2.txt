@@ -1,0 +1,22 @@
+CREATE TABLE Cliente(
+codcliente int,
+nome varchar(60),
+CONSTRAINT pk2_Cliente  PRIMARY KEY (codcliente)
+);
+
+CREATE TABLE Funcionario(
+codfuncionario int,
+nome varchar(60),
+CONSTRAINT pk2_Funcionario PRIMARY KEY (codfuncionario)
+);
+
+
+CREATE TABLE Produto(
+codproduto int,
+nome varchar(60),
+valor int,
+ CONSTRAINT pk2_Produto PRIMARY KEY (codproduto)
+);
+
+
+I
